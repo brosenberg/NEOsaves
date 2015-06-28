@@ -3,6 +3,7 @@
 set -e
 set -o pipefail
 
+# Change this to your appropriate directory
 SAVE_DIR="/Users/brosenberg/Library/Preferences/Macromedia/Flash Player/#SharedObjects/3P2ZYSJC/localhost"
 TS=$(stat -f %m "$SAVE_DIR/nsSGv1.sol")
 OUTPUT_DIR="NEOsaves/$TS"
